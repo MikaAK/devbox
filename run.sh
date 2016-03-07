@@ -5,5 +5,5 @@ brew doctor ;
 brew install caskroom/cask/brew-cask && 
 brew cask install google-chrome && brew install imagemagick postgresql elixir && 
 ssh-keygen -t rsa &&
-. ~/.bashrc && fisher install available &&
-curl -sL get.fisherman.sh | fish
+. ~/.bashrc && 
+curl -sL get.fisherman.sh | fish ; fisher install available
