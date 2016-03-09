@@ -5,9 +5,10 @@ I recently wiped my harddrive and did a reset. These are the scripts I used to g
 
 In order you would run
 - xcode.sh
-- brew-node.sh
+- brew.sh
 - after-brew.sh
-- install-postgres.sh
+- node.fish
+- install-postgres.fish
 - edvisor-install.sh
 
 ## Installs
