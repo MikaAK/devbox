@@ -4,23 +4,22 @@ DevBox
 I recently wiped my harddrive and did a reset. These are the scripts I used to get it back up.
 
 In order you would run
-- xcode.sh
-- brew.sh
-- after-brew.sh
-- node.fish
-- install-postgres.fish
-- edvisor-install.sh
+
+- linux-instals or osx-installs depending on the OS
+- fish-installs
+- editor-installs
+- dotfiles script
+- linux-installs after everything (if on linux)
 
 ## Installs
 - fishshell
 - git
-- hub
+- hub (only osx)
 - postgresql
-- brew
+- brew (only osx)
 - imagemagik
 - elixir
 - cmake
 - Google Chrome
-
-## Edvisor Installs
-Installs MySql 5.6 and pulls our repo into ~/Documents/Edvisor/app
+- asdf (elixir)
+- n (node)
