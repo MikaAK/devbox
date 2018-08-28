@@ -9,6 +9,7 @@ In order you would run
 - fish-installs
 - editor-installs
 - dotfiles script
+- git-aliases
 - linux-installs after everything (if on linux)
 
 ## Installs
@@ -23,3 +24,9 @@ In order you would run
 - Google Chrome
 - asdf (elixir)
 - n (node)
+
+#### Git Commands
+- `ncommit` - commit no verify no-edit
+- `npush` - push no verify
+- `lg` - pretty log
+- `ignore-file` - ignore file from push
