@@ -6,6 +6,6 @@ brew install -y git gh fish postgresql coreutils automake autoconf \
 
 sudo bash -c "echo '/opt/homebrew/bin/fish' >> /etc/shells" &&
 chsh -s /opt/homebrew/bin/fish &&
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher &&
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 echo "pinentry-program /opt/homebrew/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf && 
 killall gpg-agent & brew cleanup
