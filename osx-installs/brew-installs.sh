@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-brew install -y git hub fish postgresql coreutils automake autoconf \
+brew install -y git gh fish postgresql coreutils automake autoconf \
                 openssl libyaml readline libxslt libtool unixodbc \
                 gpg rust python3 neovim awscli pinentry-mac
 
