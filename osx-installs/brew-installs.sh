@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 brew install    git gh fish postgresql coreutils automake autoconf \
-                openssl libyaml readline libxslt libtool unixodbc wxmac \
+                openssl libyaml readline libxslt libtool unixodbc wxwidgets autoconf \
                 gpg rust python3 neovim awscli pinentry-mac gcc zlib curl ossp-uuid
 
 sudo bash -c "echo '/opt/homebrew/bin/fish' >> /etc/shells" &&
