@@ -1,7 +1,7 @@
 #! /usr/bin/env fish
 
-set erlang_version 24.1.2
-set elixir_version 1.12.3-otp-24
+set erlang_version 25.0.3
+set elixir_version 1.13.4-otp-25
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
 and echo 'source ~/.asdf/asdf.fish' >> ~/.config/fish/config.fish
