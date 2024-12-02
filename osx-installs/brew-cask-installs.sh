@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-brew cask install -y alfred dash iconjar slack \
-                     bartender google-chrome iterm2 \
-                     boom-3d sizeup 
+brew install --cask alfred dash slack messenger 1password \
+                    bartender google-chrome google-drive iterm2 \
+                    sizeup obsidian motion
